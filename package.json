@@ -1,5 +1,5 @@
 {
-  "name": "Tech-News-Scraper",
+  "name": "tech-news-scraper",
   "version": "1.0.0",
   "description": "Using mongodb and cheerio to scrape the most recent tech news",
   "main": "server.js",
@@ -7,17 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/domtastic/Tech-News-Scraper.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/domtastic/Tech-News-Scraper/issues"
-  },
-  "homepage": "https://github.com/domtastic/Tech-News-Scraper#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
@@ -26,5 +15,15 @@
     "express-favicon": "^2.0.0",
     "express-handlebars": "^3.0.0",
     "mongoose": "^5.0.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanBryce/Tech-News-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanBryce/Tech-News-Scraper/issues"
+  },
+  "homepage": "https://github.com/RyanBryce/Tech-News-Scraper#readme"
 }
