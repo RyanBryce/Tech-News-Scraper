@@ -6,13 +6,13 @@ var exphbs = require("express-handlebars");
 const cheerio = require("cheerio");
 
 
-let db = require("./models");
+const db = require("./models");
 
 var PORT = process.env.PORT || 3000;
 // var PORT =  3005;
 
 
-let app = express();
+const app = express();
 
 
 // Use body-parser for handling form submissions
